@@ -1,0 +1,92 @@
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+.heading{
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+
+}
+
+.monthly{
+    background-color: rgb(10, 255, 10);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.annually{
+    background-color: rgb(41, 43, 41);
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+   
+}
+.card{
+
+    line-height: 1.5;
+    width: 300px;
+    height: 500px;
+background-color: rgb(52, 46, 46);
+
+    margin-left:10px ;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+
+  
+}
+
+.card:hover{
+    border: 2px solid rgb(50, 214, 50);
+}
+span{
+    font-size: 12px;
+}
+
+.platinum{
+    line-height: 1.5;
+}
+.platinum button{
+  
+    background-color: rgb(10, 255, 10);
+    color: rgb(0, 0, 0);
+}
+
+.inner-btn{
+    width: 80%;
+    margin-top: 6px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+ul{
+ display: flex;
+ flex-direction: column;
+padding-top: 10px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+
+}
+i{
+    color:rgb(50, 214, 50);
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 5px;
+    
+}
+.container{
+   background-color: black;
+}
