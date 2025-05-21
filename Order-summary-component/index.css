@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: hsl(225, 100%, 94%); 
+   font-family: sans-serif;
+}
+.container{
+   padding-top: 25px;
+}
+.items{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.item1{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url("illustration-hero.svg");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 200px;
+
+
+}
+
+.item2{
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    height: 350px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+  
+}
+.item2 h2{
+    padding-top: 30px;
+}
+.item2 p{
+   
+    font-size: 15px;
+width: 300px;
+margin-left: 50px;
+padding-top: 20px;
+  
+
+}
+span{
+    font-size: 12px;
+}
+
+h3 a{
+   font-weight: bold;
+   font-size: 12px;
+}
+
+div i{
+    background-color:hsl(0, 0%, 77%) ;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.card{
+    display: flex;
+    border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 10px;
+  margin-left: 40px;
+margin-right: 40px;
+
+
+
+
+
+}
+.card div{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.card div h3{
+margin-left: 50px;
+margin-top: 10px;
+text-decoration: underline;
+font-size: 14px;
+font-weight: 100;
+}
+
+
+.btn{
+    padding-top: 30px;
+}
+.btn button{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 12px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+}
+
+.para h5{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
