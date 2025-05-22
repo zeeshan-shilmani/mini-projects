@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color:rgb(199, 197, 177) ;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+.card1{
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+width: 350px;
+height: 500px;
+background-image: url("https://i0.wp.com/fashionandstylepolice.com/wp-content/uploads/2021/04/Gabrielle-Chanel-Review-image.jpg?ssl=1");
+background-size: cover;
+background-position: center;
+
+
+}
+
+.card2{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 350px;
+    height: 500px;
+background-color:white ;
+ font-family: "Montserrat", sans-serif;
+
+
+
+
+
+
+
+}
+
+
+.card2 h4{
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+.card2 h1{
+    
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 260px;
+
+}
+.card2 h4{
+margin-left: 20px;
+margin-top: 12px;
+}
+
+
+.card2 p{
+    line-height: 1.5;
+   width: 280px;
+   margin-left: 20px;
+   margin-top: 12px;
+
+}
+.street{
+    font-family: "Fraunces", serif;
+}
+.street h1{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 12px;
+    color: green;
+}
+span{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: rgb(48, 47, 47);
+
+}
+
+
+
+.btn{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 12px;
+ 
+}
+
+.btn button{
+    padding: 8px;
+    background-color: green;
+    border: none;
+    width: 250px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    
+}
+
+span i{
+    padding: 8px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+.heading{
+    padding-top: 30px;
+}
